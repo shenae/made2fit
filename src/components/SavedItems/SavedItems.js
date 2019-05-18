@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './SavedItems.css';
 import image1 from '../../Assets/SavedItemsPage/bluechinos2.jpg';
 import image2 from '../../Assets/SavedItemsPage/bluechinos6.jpg';
 import image3 from '../../Assets/SavedItemsPage/bluechinos5.jpg';
@@ -11,19 +12,18 @@ import image8 from '../../Assets/SavedItemsPage/Blazers_Cotton-Blazer_22858-BMC5
 class SavedItems extends Component {
     render() {
         return (
-         //header
-            <div>
-            <img src={image1} alt="blue chinos" />
-            <img src={image2} alt="blue chinos" />
-            <img src={image3} alt="blue chinos" />
-            <img src={image4} alt="blue chinos" />
-            <img src={image5} alt="blue chinos" />
-            <img src={image6} alt="blue chinos" />
-            <img src={image7} alt="blue chinos" />
-            <img src={image8} alt="blue chinos" />
-
-
-
+            <div className="saved-grid">
+                <div><img id="img-saved" src={image1} alt="blue chinos" />
+            </div>
+                <div><img id="img-saved" src={image2} alt="navy blue chinos" />
+            </div>
+            <div><img id="img-saved" src={image3} alt="blue chinos" />
+            </div>
+            <img id="img-saved" src={image4} alt="jacket" />
+            <img id="img-saved" src={image5} alt="red cashmere sweater" />
+            <img id="img-saved" src={image6} alt="blue chinos" />
+            <img id="img-saved" src={image7} alt="blue chinos" />
+            <img id="img-saved" src={image8} alt="navy blue blazer" />
             </div>
         );
     }
