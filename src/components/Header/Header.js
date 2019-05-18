@@ -5,6 +5,7 @@ import NavProfile from "../../Assets/Icons/HEADER/NAV_PROFILE.png";
 import NavStar from "../../Assets/Icons/HEADER/NAV_STAR.png";
 import NavSearch from "../../Assets/Icons/HEADER/NAV_SEARCH.png";
 import NavLocation from "../../Assets/Icons/HEADER/NAV_LOCATION.png";
+import NavBag from '../../Assets/Icons/HEADER/NAV_BAG.png';
 
 class Header extends Component {
     render() {
@@ -21,6 +22,7 @@ class Header extends Component {
                         <div className="second-logos">
                             <img src={NavSearch} id="search-logo"></img>
                             <img src={NavLocation} id="location-logo"></img>
+                            <img src={NavBag} id="location-logo"></img>
                         </div>
                     </div>
                 </header>
