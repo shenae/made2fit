@@ -1,6 +1,12 @@
 .similar {
-    display: inline-block;
+    width: 100%;
 }
+
+/* .similar::after {
+    content: "";
+    clear: left;
+    display: block;
+  } */
 
 .recommended {
     display: inline-block;
