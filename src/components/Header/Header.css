@@ -1,7 +1,5 @@
 .header-top {
-    display: flex;
-    /* justify-content: space-between; */
-
+    width: 100%;
 }
 
 .header-nav {
@@ -10,6 +8,8 @@
     justify-content: space-around;       
     margin-left: 145px;
     margin-right: 145px;
+    margin-top: 46px;
+    
 
 }
 
@@ -24,6 +24,36 @@ nav li {
     color: #000000;
 }
 
+.banner {
+    background-color: #000000;
+    color: #ffffff;
+    font-style: italic;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: oblique;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.first-logos {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.second-logos {
+    float: right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
 .header-top {
     display: inline-block;
 }
@@ -31,6 +61,7 @@ nav li {
 #profile-logo {
     width: 37px;
     height: 37px;
+    padding-right: 20px;
 }
 
 #star-logo {
@@ -45,8 +76,8 @@ nav li {
 
 #location-logo {
     width: 37px;
-    height: 37px;
-    background-color: #000000;  
+    height: 37px;    
+    padding-left: 20px; 
 }
 
 
@@ -56,3 +87,6 @@ nav li {
     background-color: #000000;  
 }
 
+.header {
+    width: 100%;
+}
