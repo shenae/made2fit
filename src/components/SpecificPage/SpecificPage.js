@@ -10,12 +10,15 @@ class SpecificPage extends Component {
     render () {
         return (
             <div>
-                {/* <div className='clothes-options'>
-                   <Images />
+                <Images />
+                <Description />
+                <Review /> 
+                {/* <div className='clothes-options'> */}
+                   {/* <Images />
                     <Description />
                     <Review /> 
                 </div> */}
-                <ClothesOption />
+                {/* <ClothesOption /> */}
                 
                 <Similar />
             </div>
