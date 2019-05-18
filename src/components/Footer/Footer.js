@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import "./Footer.css";
+import Instagram from "../../Assets/Icons/FOOTER/Instagram.png";
+import Pinterest from "../../Assets/Icons/FOOTER/pinterest.png";
+import Youtube from "../../Assets/Icons/FOOTER/Youtube.png";
 
 
 class Footer extends Component {
     render() {
         return (
             <div className="footer">
-            <footer>
+            <footer>                
                 <div className="footer-links">
                 <p>About Us</p>
                 <p>Sizing & Fit</p>
@@ -16,6 +19,12 @@ class Footer extends Component {
                 <p>Locations</p>
                 <p>Terms</p>
                 <p>Help</p>                
+                </div>
+
+                <div className="social-link">
+                <img src={Instagram} id="instagram"></img>
+                <img src={Pinterest} id="pinterest"></img>
+                <img src={Youtube} id="youtube"></img>
                 </div>
             </footer>
 

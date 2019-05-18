@@ -26,7 +26,7 @@ class Header extends Component {
                 </header>
                 <nav>
                     <ul className="header-nav">
-                        <li>GET STARTED</li>
+                        <li>HOW IT WORKS</li>
                         <li>PANTS</li>
                         <li>TOPS</li>
                         <li>OUTERWEAR</li>
