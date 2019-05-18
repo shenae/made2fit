@@ -1,0 +1,21 @@
+.similar {
+    display: inline-block;
+}
+
+.recommended {
+    display: inline-block;
+    width: 280px;
+    height: 328px;
+    margin: 12px 16px;
+    overflow: hidden;
+}
+
+.recommended > img {
+    width: 100%;
+}
+
+.similar-title {
+    font-size: 24px;
+    color: #5a5a5f;
+}
+
