@@ -1,0 +1,22 @@
+.review {
+    width: 760px;
+    float: left;
+    text-align: left;
+    /* line-height: 1px; */
+}
+
+.reviews-title-link {
+    width: 100%;
+}
+
+.reviews-title {
+    float: left;
+}
+
+.reviews-link {
+    float: right;
+}
+
+.ratings {
+    clear: both;
+}

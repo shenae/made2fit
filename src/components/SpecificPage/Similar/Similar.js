@@ -9,7 +9,7 @@ import image4 from '../../../Assets/StretchedChinoPantsProductPage/YouMayAlsoLik
 class Similar extends Component {
     render() {
         return(
-            <div className='simiar'>
+            <div className='similar'>
                 <h3 className='similar-title'>YOU MAY ALSO LIKE THESE:</h3>
                 <div className='recommended'>
                     <img src={image1} alt='similar1'/>
