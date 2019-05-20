@@ -12,13 +12,12 @@ function App() {
   return (
     <div className="App">
       <Header />
-
-
-  <main>
-        <Route path="/" exact component={Home}/> 
-        <Route path="/Saved" exact component={SavedItems}/>   
-  </main>
-  <Footer />
+      <main>
+            <Route exact path="/Home" component={Home}/>
+            <Route exact path="/Saved" component={SavedItems}/>
+            <Route exact path="/Specific" component={SpecificPage}/>   
+      </main>
+      <Footer />
     </div>
   );
 }
