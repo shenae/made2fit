@@ -17,31 +17,39 @@ class SavedItems extends Component {
             <div>
                 <div className="saved-grid">
                     <div>
-                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image1} alt="blue chinos" /></Link>
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image1} alt="blue chinos" />
+                        </Link><p id="saved-item">WASHED CHINOS</p> <div id="saved-price">$65</div>
                     </div>
                     <div>
-                        <img id="img-saved" src={image2} alt="navy blue chinos" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image2} alt="navy blue chinos" />
+                        </Link><p id="saved-item">STRETCH CHINOS $45</p>
                     </div>
                     <div>
-                        <img id="img-saved" src={image3} alt="blue chinos" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image3} alt="blue chinos" />
+                        </Link><p id="saved-item">COTTON CHINOS $80</p>
                     </div>
                     <div>
-                        <img id="img-saved" src={image4} alt="jacket" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image4} alt="jacket" />
+                        </Link><p id="saved-item">DENIM JACKET $50</p>
                     </div>
                 </div>
                 
                 <div className="saved-grid">
                     <div>
-                        <img id="img-saved" src={image5} alt="red cashmere sweater" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image5} alt="red cashmere sweater" />
+                        </Link><p id="saved-item">FRONT ZIP SWEATER $88</p>
                     </div>
                     <div>
-                        <img id="img-saved" src={image6} alt="blue chinos" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image6} alt="blue chinos" />
+                        </Link><p id="saved-item">WASHED CHINOS $65</p>
                     </div>
                     <div>
-                        <img id="img-saved" src={image7} alt="blue chinos" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image7} alt="blue chinos" />
+                        </Link><p id="saved-item">COTTON CHINOS $80</p>
                     </div>
                     <div>
-                        <img id="img-saved" src={image8} alt="navy blue blazer" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image8} alt="navy blue blazer" />
+                        </Link><p id="saved-item">LINEN BLAZER $150</p>
                     </div>
                 </div>
             </div>
