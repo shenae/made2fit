@@ -8,6 +8,7 @@ import NavSearch from "../../Assets/Icons/HEADER/NAV_SEARCH.png";
 import NavLocation from "../../Assets/Icons/HEADER/NAV_LOCATION.png";
 import NavBag from '../../Assets/Icons/HEADER/NAV_BAG.png';
 import SavedItems from '../SavedItems/SavedItems';
+import Home from '../Home/Home';
 
 
 class Header extends Component {
@@ -21,7 +22,7 @@ class Header extends Component {
                             <img src={NavProfile} id="profile-logo"></img>
                           <Link to="/Saved" component={SavedItems}><img src={NavStar} id="star-logo"></img> </Link>
                         </div>
-                        <img src={Logo} id="head-logo" ></img>
+                      <Link to="/" component={Home}><img src={Logo} id="head-logo"></img></Link>
                         <div className="second-logos">
                             <img src={NavSearch} id="search-logo"></img>
                             <img src={NavLocation} id="location-logo"></img>
