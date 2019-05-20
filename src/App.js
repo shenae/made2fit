@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header />      
       <main>
             <Route exact path="/" component={Home}/>
             <Route exact path="/Home" component={Home}/>
