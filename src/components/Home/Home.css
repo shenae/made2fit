@@ -2,6 +2,9 @@
     width: 100%;
 }
 
+.hero {
+    margin-top: -100px;
+}
 
 .hero h1 {
     position: relative;
