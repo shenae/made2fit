@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import "./Header.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Logo from "../../Assets/Icons/HEADER/LOGO.png";
 import NavProfile from "../../Assets/Icons/HEADER/NAV_PROFILE.png";
 import NavStar from "../../Assets/Icons/HEADER/NAV_STAR.png";
 import NavSearch from "../../Assets/Icons/HEADER/NAV_SEARCH.png";
 import NavLocation from "../../Assets/Icons/HEADER/NAV_LOCATION.png";
 import NavBag from '../../Assets/Icons/HEADER/NAV_BAG.png';
+import SavedItems from '../SavedItems/SavedItems';
+
 
 class Header extends Component {
     render() {
@@ -16,7 +19,7 @@ class Header extends Component {
                     <div className="header-top">
                         <div className="first-logos">
                             <img src={NavProfile} id="profile-logo"></img>
-                            <img src={NavStar} id="star-logo"></img>
+                          <Link to="/Saved" component={SavedItems}><img src={NavStar} id="star-logo"></img> </Link>
                         </div>
                         <img src={Logo} id="head-logo" ></img>
                         <div className="second-logos">
