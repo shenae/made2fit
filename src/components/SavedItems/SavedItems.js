@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './SavedItems.css';
+import { Link } from 'react-router-dom';
 import image1 from '../../Assets/SavedItemsPage/bluechinos2.jpg';
 import image2 from '../../Assets/SavedItemsPage/bluechinos6.jpg';
 import image3 from '../../Assets/SavedItemsPage/bluechinos5.jpg';
@@ -8,6 +9,7 @@ import image5 from '../../Assets/SavedItemsPage/Sweater_Cotton_Cashmere.jpg';
 import image6 from '../../Assets/SavedItemsPage/bluechinos3.jpg';
 import image7 from '../../Assets/SavedItemsPage/bluechinos.jpg';
 import image8 from '../../Assets/SavedItemsPage/Blazers_Cotton-Blazer_22858-BMC57_1.jpg';
+import SpecificPage from '../SpecificPage/SpecificPage';
 
 class SavedItems extends Component {
     render() {
@@ -15,7 +17,7 @@ class SavedItems extends Component {
             <div>
                 <div className="saved-grid">
                     <div>
-                        <img id="img-saved" src={image1} alt="blue chinos" />
+                        <Link to="/Specific" component= { SpecificPage}><img id="img-saved" src={image1} alt="blue chinos" /></Link>
                     </div>
                     <div>
                         <img id="img-saved" src={image2} alt="navy blue chinos" />
