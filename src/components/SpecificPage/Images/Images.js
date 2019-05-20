@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Images.css';
 import image1 from '../../../Assets/StretchedChinoPantsProductPage/MainCarouselPhoto1.png';
 import image2 from '../../../Assets/StretchedChinoPantsProductPage/MainCarouselPhoto2.jpg';
 import image3 from '../../../Assets/StretchedChinoPantsProductPage/MainCarouselPhoto3.jpg';
@@ -16,8 +17,7 @@ class Images extends Component {
     }
 
     changePhoto = (event) => {
-        let photo = event.target.value;
-        console.log(image1);
+        let photo = event.target.src;
         this.setState({
             currentPhoto: photo
         })
@@ -25,15 +25,22 @@ class Images extends Component {
 
     render () {
         return (
-            <div>
-               <img src={image1} alt='carousel1' value={image1} onClick={this.changePhoto}/>
-               <img src={image2} alt='carousel2' value={image2} onClick={this.changePhoto}/>
-               <img src={image3} alt='carousel3' value={image3} onClick={this.changePhoto}/>
-               <img src={image4} alt='carousel4' value={image4} onClick={this.changePhoto}/>
-               <img src={image5} alt='carousel5' value={image5} onClick={this.changePhoto}/>
-               <img src={image6} alt='carousel6' value={image6} onClick={this.changePhoto}/>
-               <img src={image7} alt='carousel7' value={image7} onClick={this.changePhoto}/>
-               <img src={this.state.currentPhoto} alt='mainpic'/>
+            <div className='carousel'>
+                <div className='carousel-img-side'>
+                    <img src={image1} alt='carousel1' onClick={this.changePhoto} className='carousel-img'/>
+                    <img src={image2} alt='carousel2' onClick={this.changePhoto} className='carousel-img'/>
+                    <img src={image3} alt='carousel3' onClick={this.changePhoto} className='carousel-img'/>
+                    <img src={image4} alt='carousel4' onClick={this.changePhoto} className='carousel-img'/>
+                    <img src={image5} alt='carousel5' onClick={this.changePhoto} className='carousel-img'/>
+                    <img src={image6} alt='carousel6' onClick={this.changePhoto} className='carousel-img'/>
+                    <img src={image7} alt='carousel7' onClick={this.changePhoto} className='carousel-img'/>
+                </div>
+               
+               <div className='main-container'>
+                  <img src={this.state.currentPhoto} alt='mainpic' className='carousel-img-main'/> 
+                  <h4>MODEL MEASUREMENTS: (Height 6’-1”) (170 lbs) wearing a size 30 x 34.  </h4>
+               </div>
+               
             </div>
         )
     }
