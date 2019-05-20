@@ -6,6 +6,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import SpecificPage from './components/SpecificPage/SpecificPage';
 
 ReactDOM.render(
-    <SpecificPage />,
+    // <SpecificPage />,
+    <Router>
+        <App />
+    </Router>,
     document.getElementById('root')
 );
