@@ -18,11 +18,11 @@ class SavedItems extends Component {
                 <div className="saved-grid">
                     <div>
                         <Link to="/Specific" component= { SpecificPage}><img className="img-saved" src={image1} alt="blue chinos" />
-                        </Link><p className="saved-item">WASHED CHINOS</p> <div className="saved-price">$65</div>
+                        </Link><p className="saved-item">WASHED CHINOS</p><div className="saved-price">$65</div>
                     </div>
                     <div>
                         <Link to="/Specific" component= { SpecificPage}><img className="img-saved" src={image2} alt="navy blue chinos" />
-                        </Link><p className="saved-item">STRETCH CHINOS</p> <div className="saved-price">$45</div>
+                        </Link><p className="saved-item">STRETCH CHINOS</p><div className="saved-price">$45</div>
                     </div>
                     <div>
                         <Link to="/Specific" component= { SpecificPage}><img className="img-saved" src={image3} alt="blue chinos" />

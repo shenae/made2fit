@@ -20,6 +20,7 @@
     font-weight: 500px;
     float: left;
     font-size: 22px; */
+    text-align: left;
     width: 237px;
     height: 25px;
     font-family: Avenir;
@@ -30,7 +31,7 @@
     line-height: normal;
     letter-spacing: 0.5px;
     color: #000000;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 .saved-price {
     width: 48px;
@@ -42,6 +43,7 @@
     font-stretch: normal;
     line-height: normal;
     letter-spacing: 0.4px;
-    text-align: right;
+    text-align: left;
     color: #000000;
+    margin-left: 25px;
 }
