@@ -16,10 +16,10 @@ Problem -
 *When male-identifying consumers are looking for a specific item, they will browse for the product on their phones, research about the product on their desktop, and then go into the store to purchase the product. They are not convinced by the information provided to make a purchase online. How might we save male identifying shoppers a trip to the store while providing enough product information to make a confident purchase?*
 
 Solution - 
+
 *Our result aims to solve this problem with the following features:*
 <br>
 ![Image of desktop and mobile features chart](https://github.com/shenae/made2fit/blob/master/made2fit-features.png)
-
 
 "Jeff" is the user persona, which is a profile that is representative of the primary user base from our research.
 
