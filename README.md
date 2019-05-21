@@ -55,8 +55,8 @@ For this project, the UX/DI students will be using InVision and Zeppelin. The SE
 - The task assignment board is on Trello: https://trello.com/b/bsc53ReK/uxdi-sei
 
 ### InVision Clickable Prototypes
-- Mobile https://invis.io/4YRDNURH6XP 
-- Desktop https://invis.io/C7RDNMRP9SW 
+- Desktop https://projects.invisionapp.com/share/HCS44OQF8NQ#/screens
+- Mobile https://projects.invisionapp.com/share/TSS3Y1R9NR8#/screens
 
 ### Deployment
 This project is deployed on Netlify: https://epic-jones-4619fa.netlify.com/
