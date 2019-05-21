@@ -17,8 +17,7 @@ Problem Statement -
 
 Solution - 
 *Our solution aims to solve this problem with the following features:*
-![Image of desktop and mobile features chart]
-(https://github.com/shenae/made2fit/blob/master/made2fit-features.png)
+![Image of desktop and mobile features chart](https://github.com/shenae/made2fit/blob/master/made2fit-features.png)
 
 "Jeff" is the user persona, which is a profile that is representative of the primary user base from our research.
 
