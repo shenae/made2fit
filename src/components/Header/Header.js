@@ -6,7 +6,8 @@ import NavStar from "../../Assets/Icons/HEADER/NAV_STAR.png";
 import NavSearch from "../../Assets/Icons/HEADER/NAV_SEARCH.png";
 import NavLocation from "../../Assets/Icons/HEADER/NAV_LOCATION.png";
 import NavBag from '../../Assets/Icons/HEADER/NAV_BAG.png';
-
+import CreateAccount from '../CreateAccount/CreateAccount';
+import {Link,Route} from 'react-router-dom';
 class Header extends Component {
     render() {
         return (
@@ -15,7 +16,7 @@ class Header extends Component {
                     <div className="banner">SALE 30% off Accessories</div>
                     <div className="header-top">
                         <div className="first-logos">
-                            <img src={NavProfile} id="profile-logo"></img>
+                            <Link to='/CreateAccount'><img src={NavProfile} id="profile-logo"></img></Link>
                             <img src={NavStar} id="star-logo"></img>
                         </div>
                         <img src={Logo} id="head-logo" ></img>

@@ -1,0 +1,105 @@
+* {
+  /* border: solid */
+}
+.Rectangle {
+  width: 928px;
+  height: 1045px;
+  border-radius: 8px;
+  border: solid 1px #dddddd;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  width: 380px;
+  height: 69px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+  border: solid 3px #000000;
+  background-color: #000000;
+}
+.SAVE-SUBMIT {
+  width: 234px;
+  height: 44px;
+  font-family: Avenir;
+  font-size: 32px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.evenly {
+  justify-content: space-around;
+}
+.start {
+  text-align: left;
+  margin-left:6vw;
+}
+.bold {
+  font-weight: 900;
+  font-family: Avenir;
+}
+.bottom {
+  width:10vw;
+  border-bottom: solid 3px;
+}
+.padding {
+  padding: 0.5vw;
+}
+.brand {
+    width: 380px;
+    height: 56px;
+    border-radius: 8px;
+    border: solid 1px #000000;
+    display:flex;
+    justify-content: space-between;
+}
+
+.brandText {
+  width: 69px;
+  height: 27px;
+  font-family: Avenir;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.h1Down {
+  margin: auto 10px;
+  font-size: 20pt;
+}
+.prefer {
+  text-align:start
+}
+.fontOf {
+  height: 27px;
+  font-family: Avenir;
+  font-size: 20px;
+}
+
+.width {
+  width: 187px;
+  height: 56px;
+  border-radius: 8px;
+  border: solid 1px #000000;
+  margin: 1vh;
+}
+.margin {
+  margin: auto auto;
+  font-weight: 200;
+}
+
+.marginOfSizez {
+  margin: auto 0;
+}
+.lineHeight {
+  margin:"5px"
+}
