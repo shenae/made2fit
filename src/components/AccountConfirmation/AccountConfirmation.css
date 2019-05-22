@@ -1,0 +1,57 @@
+.container {
+  width: 40vw;
+}
+.button {
+  margin:8vh auto;
+  width: 25vw;
+  height: 6vh;
+  border-radius: 8px;
+  background-color: #1e1e24;
+}
+
+.START-SHOPPING {
+  width: 25vw;
+  height: 4vh;
+  font-family: Avenir;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+.desk-1 {
+  margin:  10vh auto;
+  display: flex;
+  justify-content: space-between;
+  width: 55vw;
+  height: 17px;
+  background-color: #1e1e24;
+  border-radius: 13px;
+}
+
+.oval {
+  align-self: center;
+  width: 13px;
+  height: 13px;
+  background-color: #ffffff;
+  border-radius: 100%;
+}
+
+.border {
+  border: solid black;
+}
+
+.image {
+  height: 160px;
+  width:199px;
+  margin: 0 auto 6vh auto;
+}
+.text {
+  font-family: Avenir-Medium;
+}
+.size {
+  font-size: 1.7em;
+  font-weight: 100;
+}
