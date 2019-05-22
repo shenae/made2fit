@@ -56,3 +56,28 @@ button:hover {
     height: 596px;
     padding: 24px 24px 24px 0;
 }
+
+.how-it-works-title {
+    width: 200px;
+    height: 41px;
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    color: #000000;
+    margin-top: 500px;   
+    text-align: center; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;  
+}
+
+.how-it-works-image {
+    height: 275px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
