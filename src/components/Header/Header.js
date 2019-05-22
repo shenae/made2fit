@@ -20,15 +20,18 @@ class Header extends Component {
                     <div className="header-top">
                         <div className="first-logos">
                             <Link to='/CreateAccount'><img src={NavProfile} id="profile-logo"></img></Link>
+
                           <Link to="/Saved" component={SavedItems}><img src={NavStar} id="star-logo"></img> </Link>
                           </div>
                       <Link to="/" component={Home}><img src={Logo} id="head-logo"></img></Link>
+                      
                         <div className="second-logos">
                             <img src={NavSearch} id="search-logo"></img>
                             <img src={NavLocation} id="location-logo"></img>
                             <img src={NavBag} id="location-logo"></img>
                         </div>
                       </div>                    
+
                 </header>
                 <nav>
                     <ul className="header-nav">
