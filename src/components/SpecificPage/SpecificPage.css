@@ -2,3 +2,23 @@
     width: 100%;
     height: auto;
 } */
+
+.specific-page {
+    margin: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-desc-div {
+    display: flex;
+
+}
+
+/* .images-class {
+    float: left;
+}
+
+.desc-class {
+    float: right;
+} */

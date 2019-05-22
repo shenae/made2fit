@@ -1,13 +1,22 @@
 .carousel {
-    width: 100%;
-    display: flex;    
+    width: auto;
+    height: 1100px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 8px;
+    border-bottom: 1px solid #5a5a5f;
 }
 
 .main-container {
     display: inline-block;
     width: 648px;
     height: 952px;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.main-container > img {
+    width: 648px;
+    height: 952px;
 }
 
 .carousel-img-side {
@@ -26,9 +35,26 @@
     width: 84px;
     height: 128px;
     opacity: 0.7;
+    margin-bottom: 16px;
 }
 
 .carousel-img:hover {
     background-color:#000;
     opacity: 1;
+    /* border: 1px solid black; */
+}
+
+.carousel-img:active {
+    background-color:#000;
+    opacity: 1;
+    border: 1px solid black;
+    width: 82px;
+    height: 126px;
+}
+
+.main-container > h4 {
+    margin: 5px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
 }

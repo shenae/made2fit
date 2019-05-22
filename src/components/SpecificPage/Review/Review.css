@@ -1,22 +1,104 @@
 .review {
-    width: 760px;
+    width: 748px;
     float: left;
     text-align: left;
     /* line-height: 1px; */
+    margin-top: -400px;
+    margin-bottom: 100px;
 }
 
 .reviews-title-link {
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .reviews-title {
     float: left;
+    margin: 0;
+}
+
+.review-stars {
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .reviews-link {
     float: right;
+    margin-top: 10px;
 }
 
 .ratings {
     clear: both;
+    /* padding-bottom: 10px; */
+    /* border-bottom: 1px  solid #5a5a5f; */
+}
+
+.ratings > h4 {
+    font-weight: normal;
+}
+
+.fit-centered {
+    width: 250px;
+    margin-left: 20px;
+    display: block;
+}
+
+.fit-container {
+    width: 290px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.fit-container > h4 {
+    font-weight: normal;
+}
+
+.fit-container > h5 {
+    font-weight: normal;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.big-fit {
+    float: right;
+}
+
+.review-title {
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.next-title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    float: right;
+}
+
+.review-desc {
+    border-top: 1px  solid #5a5a5f;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.review-desc > h5, p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.checkmark {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.recommended-review {
+    display: inline-block;
+}
+
+.recommended-review > span {
+    margin-left: 10px;
+    font-weight: 900;
 }
