@@ -7,6 +7,7 @@ import Sale from "../../Assets/HomePage/DESKTOP/SALE.png";
 import Shoes from "../../Assets/HomePage/DESKTOP/SHOES.png";
 import Tops from "../../Assets/HomePage/DESKTOP/TOPS.png";
 import Hero from '../../Assets/HomePage/HOME_HERO.png';
+import HowItWorks from "../../Assets/HomePage/DESKTOP/HOW_IT_WORKS.png";
 
 class Home extends Component {
     render() {
@@ -17,8 +18,10 @@ class Home extends Component {
                 <h1>Never worry about <br></br>finding the right fit again.</h1>
                 <button>Get Started</button>
                 <button>Learn More</button>
-                <img className="header-image" src={Hero} />
-            </div>
+                <img className="header-image" src={Hero} /> 
+                <div className="how-it-works-title">How It Works</div>                  
+            <img className="how-it-works-image" src={HowItWorks} />                      
+            </div>     
             
 
             <div className="column-image">
