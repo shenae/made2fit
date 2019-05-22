@@ -38,7 +38,7 @@ class Images extends Component {
                
                <div className='main-container'>
                   <img src={this.state.currentPhoto} alt='mainpic' className='carousel-img-main'/> 
-                  <h4>MODEL MEASUREMENTS: (Height 6’-1”) (170 lbs) wearing a size 30 x 34.  </h4>
+                  <h4>MODEL MEASUREMENTS: (Height 6’-1”) (170 lbs) wearing a size 30 x 34.</h4>
                </div>
                
             </div>

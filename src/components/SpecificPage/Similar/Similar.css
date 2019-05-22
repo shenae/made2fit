@@ -1,20 +1,25 @@
+.similar-div {
+    width: 100%;
+    border-top: 1px  solid #5a5a5f;
+    padding-top: 50px;
+}
+
 .similar {
     width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 50px;
 }
 
 /* .similar:after {
-    content: "";
-    clear: left;
-    display: block;
+    clear: both;
   } */
 
 .recommended {
     display: inline-block;
     width: 280px;
     height: 328px;
-    margin: 12px 16px;
+    /* margin: 12px 16px; */
     overflow: hidden;
 }
 
@@ -25,5 +30,7 @@
 .similar-title {
     font-size: 24px;
     color: #5a5a5f;
+    width: 100%;
+    
 }
 
