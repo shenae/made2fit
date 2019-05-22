@@ -2,10 +2,10 @@
     width: 100%;
     border-top: 1px  solid #5a5a5f;
     padding-top: 50px;
+    /* margin: 0 auto; */
 }
 
 .similar {
-    width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     margin-top: 50px;
