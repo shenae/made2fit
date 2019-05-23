@@ -10,7 +10,12 @@
     margin-right: 145px;
     margin-top: 46px;
     
+}
 
+@media only screen and (max-width: 375px) {
+    .header-nav {
+        overflow: hidden;
+    }
 }
 
 nav li {
@@ -22,6 +27,20 @@ nav li {
     line-height: normal;
     letter-spacing: 0.3px;
     color: #000000;
+}
+
+@media only screen and (max-width: 375px) {
+    nav li {
+        display: inline;
+        font-size: 20px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        color: #000000;
+        margin-left: 5px;
+    }
 }
 
 .banner {
@@ -42,10 +61,35 @@ nav li {
     padding-top: 10px;
 }
 
+@media only screen and (max-width: 375px) {
+    .banner {
+        background-color: #000000;
+        color: #ffffff;
+        font-style: italic;
+        height: 40px;
+        width: 100%;
+        margin: 0;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        font-style: oblique;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.6px;
+        padding-top: 0;
+    }
+}
+
 .first-logos {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 375px) {
+    .first-logos {
+        margin-top: 20px;
+    }
 }
 
 .second-logos {
@@ -56,6 +100,11 @@ nav li {
 
 .header-top {
     display: inline-block;
+}
+@media only screen and (max-width: 375px) {
+    .header-top {
+        display: block;
+    }
 }
 
 #profile-logo {
@@ -72,6 +121,17 @@ nav li {
 #head-logo{
     width: 241px;
     height: 66px;    
+}
+
+@media only screen and (max-width: 375px) {
+    #head-logo{
+        /* position: relative;
+        top: 0; */
+        display: block;
+        width: 90%;
+        height: auto; 
+        margin: 0 auto;  
+    }
 }
 
 #location-logo {

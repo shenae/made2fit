@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Header />      
-      <main>
+      {/* <main>
             <Route exact path="/" component={Home}/>
             <Route exact path="/Home" component={Home}/>
             <Route exact path="/Saved" component={SavedItems}/>
@@ -23,7 +23,7 @@ function App() {
             <Route exact path="/CreateAccount" component={CreateAccount}/>   
             <Route exact path="/Measurement" component={Measurement}/>   
             <Route exact path="/AccountConfirmation" component={AccountConfirmation}/>   
-      </main>
+      </main> */}
       <Footer />
     </div>
   );

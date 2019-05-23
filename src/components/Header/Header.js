@@ -18,11 +18,12 @@ class Header extends Component {
                 <header>
                     <div className="banner">SALE 30% off Accessories</div>
                     <div className="header-top">
+        
                         <div className="first-logos">                                                   
                             <Link to='/CreateAccount'><img src={NavProfile} id="profile-logo"></img></Link>
-                          <Link to="/Saved" component={SavedItems}><img src={NavStar} id="star-logo"></img> </Link>
-                          </div>
-                      <Link to="/" component={Home}><img src={Logo} id="head-logo"></img></Link>
+                            <Link to="/Saved" component={SavedItems}><img src={NavStar} id="star-logo"></img> </Link>
+                        </div>
+                      {/* <Link to="/" component={Home}><img src={Logo} id="head-logo"></img></Link> */}
                     
                         <div className="second-logos">
                             <img src={NavSearch} id="search-logo"></img>
@@ -30,6 +31,8 @@ class Header extends Component {
                             <img src={NavBag} id="location-logo"></img>
                         </div>
                       </div>                    
+                      <Link to="/" component={Home}><img src={Logo} id="head-logo"></img></Link>
+
 
                 </header>
                 <nav>
