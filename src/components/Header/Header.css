@@ -14,7 +14,14 @@
 
 @media only screen and (max-width: 375px) {
     .header-nav {
-        overflow: hidden;
+        overflow: scroll;
+        width: 90%;
+        height: 40px;
+        margin: 10px auto;
+        /* line-height: 1; */
+        padding: 0;
+        display: inline-block;
+        white-space: nowrap;
     }
 }
 
@@ -27,6 +34,21 @@ nav li {
     line-height: normal;
     letter-spacing: 0.3px;
     color: #000000;
+}
+
+@media only screen and (max-width: 375px) {
+    nav li {
+        display: inline;
+        font-size: 24px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.3px;
+        color: #000000;
+        margin: 0 5px;
+        padding: 5px;
+    }
 }
 
 @media only screen and (max-width: 375px) {
@@ -101,6 +123,7 @@ nav li {
 .header-top {
     display: inline-block;
 }
+
 @media only screen and (max-width: 375px) {
     .header-top {
         display: block;
@@ -128,9 +151,9 @@ nav li {
         /* position: relative;
         top: 0; */
         display: block;
-        width: 90%;
+        width: 100%;
         height: auto; 
-        margin: 0 auto;  
+        margin: 0 auto;
     }
 }
 
