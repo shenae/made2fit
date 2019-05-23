@@ -24,12 +24,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     float: right;
-    margin-right: 102px;
-    /* padding: 40px; */   
+    margin-right: 102px;  
     margin-bottom: 10px; 
     margin-top: 110px;
 }
-
 
 #instagram, #pinterest, #youtube {
     width: 50px;
@@ -42,4 +40,218 @@
 
 #youtube {
     padding-left: 40px;
+}
+/* ----------- Media Queries ----------- */
+/* Android Phones -- Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px)  
+and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .footer-links {
+        width: 100%;
+        height: auto; 
+        margin: 0 auto;
+    }
+    .footer-links > p {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .social-link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        float: right;
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    #instagram, #pinterest, #youtube {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    #instagram {
+        padding-right: 0;
+    }
+    #youtube {
+        padding-right: 0;
+    }
+    #pinterest {
+        padding-right: 0;
+    }
+}
+
+/* ----------- iPhone 5 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    .footer-links {
+        width: 100%;
+        height: auto; 
+        margin: 0 auto;
+    }
+    .footer-links > p {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .social-link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        float: right;
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    #instagram, #pinterest, #youtube {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    #instagram {
+        padding-right: 0;
+    }
+    #youtube {
+        padding-right: 0;
+    }
+    #pinterest {
+        padding-right: 0;
+    }
+}
+
+
+/* ----------- iPhone 6, 7 and 8 ----------- */
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    
+    .footer-links {
+        width: 100%;
+        height: auto; 
+        margin: 0 auto;
+    }
+    .footer-links > p {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .social-link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        float: right;
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    #instagram, #pinterest, #youtube {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    #instagram {
+        padding-right: 0;
+    }
+    #youtube {
+        padding-right: 0;
+    }
+    #pinterest {
+        padding-right: 0;
+    }
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+    
+    .footer-links {
+        width: 100%;
+        height: auto; 
+        margin: 0 auto;
+    }
+    .footer-links > p {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .social-link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        float: right;
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    #instagram, #pinterest, #youtube {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    #instagram {
+        padding-right: 0;
+    }
+    #youtube {
+        padding-right: 0;
+    }
+    #pinterest {
+        padding-right: 0;
+    }
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait */
+@media only screen and (max-width: 400px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    
+    .footer-links {
+        width: 100%;
+        height: auto; 
+        margin: 0 auto;
+    }
+    .footer-links > p {
+        width: 50%;
+        margin-top: 20px;
+    }
+    .social-link {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        float: right;
+        margin: 50px auto;
+        width: 100%;
+    }
+
+    #instagram, #pinterest, #youtube {
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+    }
+
+    #instagram {
+        padding-right: 0;
+    }
+    #youtube {
+        padding-right: 0;
+    }
+    #pinterest {
+        padding-right: 0;
+    }
 }

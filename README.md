@@ -4,12 +4,21 @@ UX/DI and SEI collaboration project
 ## Project Name: made2fit
 
 ## Project Overview
-This is a collaboration project between General Assembly's Software Engineering Immersive program students and UX/DI students. The following SEI students on the team: 
+This is a group project between General Assembly's Software Engineering Immersive program students and UX/DI students. 
+
+The following SEI students are on the team: 
 
     * Calvin Kim           https://github.com/Calvinkim4
     * Jack Gay             https://github.com/j4ckp0w15g4y
     * Shenae Simmons       https://github.com/shenae
     * Sidgi Samanduyev     https://github.com/Sidgi
+
+The following UX/DI students are on the team:
+
+    * Katherine Chiu       https://dribbble.com/kathechiu
+    * Christina Tai        https://dribbble.com/christinaatai
+    * McKenzie Warren      
+    * Suyoung Min          
 
 ### Description
 Problem - 
@@ -28,13 +37,14 @@ Solution -
 Time | Deliverable
 -----------------|----------------------------------------
 4/05/19    | UX Group Assignments, UX Research
-4/11/19    | SEI Group Assignments, Research, Schedule
+4/11/19    | SEI Group Assignments, UX Research, Schedule
 5/08/19    | Wireframes for InVision and Zeppelin
 5/16/19    | Revisions and Moscow Guidelines
 5/17/19    | Front-End Coding, Working Prototype
 5/18/19    | Front-End Coding, UX Testing
-5/20/19    | Desktop Version Completed
-5/21/19    | Mobile Version Completed, Deployment
+5/20/19    | Desktop Version Edited and Completed
+5/21/19    | Mobile Version Coding
+5/22/19    | Mobile Version Completed, Deployment
 5/23/19    | Group Presentation
 
 
@@ -49,14 +59,14 @@ For this project, the UX/DI students will be using InVision and Zeppelin. The SE
 ### MVP for SEI
 1. Navigation to specified pages
 2. Display purchase options for pants
-3. Mobile responsive
+3. Mobile responsive for home page
 
 ### Project Prioritization
 - The task assignment board is on Trello: https://trello.com/b/bsc53ReK/uxdi-sei
 
 ### InVision Clickable Prototypes
-- Desktop https://projects.invisionapp.com/share/HCS44OQF8NQ#/screens
-- Mobile https://projects.invisionapp.com/share/TSS3Y1R9NR8#/screens
+- Desktop https://projects.invisionapp.com/share/HCS44OQF8NQ
+- Mobile https://projects.invisionapp.com/share/TSS3Y1R9NR8
 
 ### Deployment
 This project is deployed on Netlify: https://epic-jones-4619fa.netlify.com/
